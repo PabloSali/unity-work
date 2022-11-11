@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 10.0f;
     public float horizontalInput;
-    public float xRange = 10;
     public GameObject projectilePrefab;
 
     // Start is called before the first frame update
@@ -16,7 +15,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-
+    public float xRange = 10;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space)) {

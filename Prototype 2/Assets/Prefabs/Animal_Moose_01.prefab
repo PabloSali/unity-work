@@ -522,6 +522,7 @@ GameObject:
   - component: {fileID: 2195357240637725792}
   - component: {fileID: 651041611640534479}
   - component: {fileID: 2856847634630224153}
+  - component: {fileID: 777548575275311542}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Untagged
@@ -599,6 +600,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4067fc5494ba45e5b99ccc9d856811d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &777548575275311542
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2195357240647014270}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20372887, y: 0.5831137, z: 0.42831907}
+  m_Center: {x: -0.00020819361, y: 0.20844361, z: 0.08600671}
 --- !u!1 &2195357240647019206
 GameObject:
   m_ObjectHideFlags: 0
