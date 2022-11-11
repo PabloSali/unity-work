@@ -18,7 +18,7 @@ public class SpawnManager : MonoBehaviour
     void Update()
     {
            if(Input.GetKeyDown(KeyCode.S)) {
-
+                SpawnRandomAnimal;
            }
     }
 
